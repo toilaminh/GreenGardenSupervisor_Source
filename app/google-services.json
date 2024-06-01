@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "691474937611",
+    "firebase_url": "https://doantn-3844d-default-rtdb.firebaseio.com",
+    "project_id": "doantn-3844d",
+    "storage_bucket": "doantn-3844d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691474937611:android:ef4864df598e1f5baf540e",
+        "android_client_info": {
+          "package_name": "com.example.greengardensupervisor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASy2WzSZEyfU2vJ4gLHfoUcyWcEKwwzaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

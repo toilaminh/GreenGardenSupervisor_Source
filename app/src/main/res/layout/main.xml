@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F1E0">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN GARDEN SUPERVISOR"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#01C200"
+        android:layout_margin="20dp"
+        android:layout_gravity="center" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/tag_cur_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current temperature"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#D60000"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/cur_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:text=""
+                android:textColor="#F21DDA"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tag_cur_humd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current humidity"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#0069C7"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/cur_humd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:text=""
+                android:textColor="#F21DDA"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tag_ur_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your temperature"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#EB0000"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/ur_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:text=""
+                android:textColor="#EB268F"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tag_ur_humd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your temperature"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#007EF0"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/ur_humd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:text=""
+                android:textColor="#EB268F"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+
+    <TextView
+        android:id="@+id/tag_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature (C):"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FF0000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/temp"
+        android:hint="Enter your temperature"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="number"
+        android:background="#D7D7D7"/>
+
+    <TextView
+        android:id="@+id/tag_humd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity (%):"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#008CFF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/humd"
+        android:hint="Enter your humidity"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="number"
+        android:background="#D7D7D7"/>
+
+    <Button
+        android:id="@+id/btn_Confirm"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="CONFIRM"
+        android:background="#47DCFF"/>
+
+</LinearLayout>
