@@ -98,7 +98,7 @@
                 android:id="@+id/tag_ur_humd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Your temperature"
+                android:text="Your humidity"
                 android:textStyle="bold"
                 android:textSize="25dp"
                 android:textColor="#007EF0"
